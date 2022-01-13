@@ -1,9 +1,9 @@
 # Credit_Risk_Analysis
-##Overview of the analysis: Explain the purpose of this analysis.
+## Overview of the analysis: Explain the purpose of this analysis.
 
 - The purpose of this analysis was to compare the ability of various machine learning methods to predict credit risk using a credit card dataset from LendingClub using the many features available in the dataset.
 
-##Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models.
+## Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models.
 ## Use screenshots of your outputs to support your results.
 
 ### First I tried logistic regression with naive oversampling.
@@ -36,8 +36,8 @@
 
 ![alt text](https://github.com/smucnyj13104/Credit_Risk_Analysis/blob/main/ensemble_Adaboost.png?raw=true)
 
-##Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. 
-##If you do not recommend any of the models, justify your reasoning.
+## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. 
+## If you do not recommend any of the models, justify your reasoning.
 
 - Overall precision was very low for high risk regardless of the method, suggesting a high number of false positives. Precision was perfect for low risk regardless of method. Recall was mediocre for all methods for high risk, with naive oversampling being the best for recall of high risk (.74) (this suggests that there were a good amount of false negatives regardless of method).  
 - Based on balanced accuracy score I would recommend using the easy ensemble with the AdaBoost Classifier as this had the highest accuracy (74%).
